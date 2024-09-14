@@ -4,7 +4,6 @@ import { ClerkProvider } from '@clerk/nextjs'
 
 import './globals.css'
 
-
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
@@ -12,8 +11,8 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'VEvents',
-  description: 'VEvents is a platform for event management.',
+  title: 'Evently',
+  description: 'Evently is a platform for event management.',
   icons: {
     icon: '/assets/images/logo.svg'
   }
